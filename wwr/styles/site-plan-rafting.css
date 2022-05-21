@@ -2,7 +2,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Water+Brush&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Inter:wght@300&family=Zen+Loop&display=swap");
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #396E94;
@@ -10,8 +10,8 @@ Fonts are separated by a | */
     --accent1-color: #A42212;
     --accent2-color: white;
     /* change the values below to your chosen font(s) */
-    --heading-font: "Water Brush";
-    --paragraph-font: PT Sans Narrow, Barlow Condensed, Marck Script;
+    --heading-font: "Inter";
+    --paragraph-font: Akshar, Zen Loop, Bebas Neue;
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #396E94;
     /* headlines on a white background */
@@ -91,7 +91,7 @@ p {
 }
 
 .colors th {
-    background-color: #999;
+    background-color: rgb(139, 133, 133);
 }
 
 .colors td {

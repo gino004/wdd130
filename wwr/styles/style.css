@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Inter:wght@300&family=Zen+Loop&display=swap");
 div {
     text-align: center;
     max-width: 1600px;
@@ -31,7 +32,7 @@ main section {
 }
 
 body {
-    background-color: rgb(255, 246, 255);
+    background-color: #fcfbfb;
 }
 
 header {
@@ -40,7 +41,7 @@ header {
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: white;
     text-decoration: none;
 }
 
@@ -52,8 +53,8 @@ nav a:hover {
 
 .book:hover,
 .join:hover {
-    background-color: slategray;
-    color: black;
+    background-color: rgb(82, 85, 88);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -67,14 +68,19 @@ nav a:hover {
 
 footer {
     background-color: rgb(20, 30, 13, 17);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
-    color: #9d60;
+    color: rgba(0, 0, 0, 0);
 }
 
+
+/*en el h4 es para cambiarle el color de las letras donde dice "Make memories with Dry Oar"*/
+
 h4 {
-    color: white;
+    color: black;
 }
 
 .msg h2 {
@@ -113,4 +119,107 @@ footer h3 a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+.home-title {
+    font-family: 'Inter';
+    font-size: 2em;
+}
+
+
+/*aqui en el .msg h2 donde dice margin-bottom esta en 0% y ahi es donde se puede ajustar como esta ahora*/
+
+.msg h2 {
+    font-family: "Bebas Neue";
+    margin-bottom: 0%;
+}
+
+.book,
+.join {
+    font-size: 18px;
+    padding: 10px 29px;
+    margin-top: 40px;
+}
+
+
+/* en .msg p se puede agrandar las letras donde dice More than just the thrill*/
+
+.msg p {
+    font-size: 1em;
+    padding-bottom: 2px;
+}
+
+
+/* en la parte de .msg se agranda o se achica donde dice More than just the thrill*/
+
+.msg {
+    line-height: 2.5em;
+    padding: 0px;
+}
+
+body {
+    font-size: 22px;
+    font-family: Inter, Akshar, Bebas Neue;
+}
+
+
+/* aqui en el h2 donde dice margen se puede alejar de las imagenes siempre quqe aumentes el margen*/
+
+h2 {
+    margin: 10%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*donde dice .home-title es el lugar para cambiarle el color donde dice: Have an aventure porque al principio me confundi que era el h1*/
+
+.home-title {
+    margin-top: 10px;
+    color: black;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.book,
+.join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+/*aqui en el img.mountains se puso margin-top para alejarlo de la imagen que esta arriba de el*/
+
+img.mountains {
+    margin-top: 10%;
 }
