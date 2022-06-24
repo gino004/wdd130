@@ -456,6 +456,24 @@ img.mountains {
 }
 
 
+/*Desde aquí empieza los estilos de la página CONTACTUS.*/
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+
 /*Apartir de aqui hacia bajo empieza el @media query(CONSULTA DE MEDIOS)*/
 
 @media screen and (max-width: 900px) {
