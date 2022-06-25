@@ -1,0 +1,40 @@
+#form {
+    text-align: center;
+}
+
+.a {
+    text-align-last: right;
+    margin-top: -13%;
+    margin-right: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: skyblue;
+}
+
+#form {
+    margin: 90px;
+}
+
+#con {
+    background-color: blue;
+    font-size: 47px;
+    padding-top: 10px;
+}
+
+#b {
+    background-color: lightblue;
+}
+
+#c {
+    margin-top: 10px;
+    font-style: italic;
+    color: skyblue;
+}
+
+#i {
+    padding: 10px;
+}
+
+#p {
+    text-align: center;
+    font-style: oblique;
+}
