@@ -49,6 +49,10 @@ nav {
     justify-content: space-around;
 }
 
+.logo {
+    width: 60%;
+}
+
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -237,7 +241,7 @@ footer a:hover {
 }
 
 .logo {
-    width: 5%;
+    width: 55%;
 }
 
 footer h3 a:hover {
@@ -246,6 +250,7 @@ footer h3 a:hover {
 }
 
 #hero-img {
+    height: 127%;
     width: 100%;
 }
 
@@ -311,6 +316,12 @@ nav a {
 
 footer .social img {
     padding-top: 15px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+footer h3 {
+    padding: 10px;
 }
 
 body {
