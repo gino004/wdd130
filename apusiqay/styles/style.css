@@ -1,3 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Shalimar&family=Splash&display=swap");
 body {
     background-color: chocolate;
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.facebook {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25%;
+}
+
+.twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25%;
+}
+
+.youtube {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25%;
+}
+
+#parrafo {
+    color: black;
+    text-align: center;
+    padding: 50 px 80 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#apu {
+    text-align: center;
+    padding: 18px;
+    font-size: 125px;
+    letter-spacing: 10px;
+    font-family: Splash;
+}
+
+#cloud {
+    text-align: center;
+    font-size: 50px;
+    font-family: Shalimar;
+    letter-spacing: 5px;
+}
+
+#f {
+    text-align: center;
+    letter-spacing: 3px;
+    font: 20px "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+#h {
+    letter-spacing: 3px;
+    font: 20px "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+#mountains {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    bottom: 203px;
+}
+
+#caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+#social {
+    text-align: right;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: Shalimar;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+#parr {
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 97px;
+}
+
+#social a:hover {
+    color: black;
 }
