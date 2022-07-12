@@ -118,6 +118,10 @@ a {
     font-size: 97px;
 }
 
+a {
+    z-index: 1;
+}
+
 #social a:hover {
     color: black;
 }
