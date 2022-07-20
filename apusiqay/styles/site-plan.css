@@ -8,7 +8,8 @@ Fonts are separated by a | */
     --primary-color: #CB6521;
     --secondary-color: #FDFDFD;
     --accent1-color: #000000;
-    --accent2-color: white;
+    --accent2-color: #D6CECE;
+    --accent3-color: #EC9975;
     /* change the values below to your chosen font(s) */
     --heading-font: "Splash";
     --paragraph-font: Verdana, Geneva, Tahoma, sans-serif;
@@ -98,7 +99,7 @@ p {
 }
 
 .colors td {
-    width: 25%;
+    width: 20%;
     height: 3em;
 }
 
@@ -116,6 +117,10 @@ p {
 
 .accent2 {
     background-color: var(--accent2-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
 }
 
 p.colored {
